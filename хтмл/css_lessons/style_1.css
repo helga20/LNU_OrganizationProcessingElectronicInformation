@@ -1,0 +1,116 @@
+/* CSS Document */
+/* CSS Document */
+* {
+	margin:0; padding: 0; border: 0;
+	
+}
+body {
+	font: 0.825em/1.5em "Lucida Sans Unicode";
+	background: #eef url(../img_lessons_1/bg_body.gif) repeat-x top;
+	margin: 10px 0;
+}
+#container {
+	width: 730px;
+	border: 5px solid #dde;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+#header {
+	height: 140px;
+	border-bottom: 5px solid #fc0;
+	background: url(../img_lessons_1/bg_1.jpg);
+	color: #FFF;
+	text-align: right;
+}
+#header h1 {
+	font-size: 1.8em;
+	padding: 45px 95px 0px 0px;
+}
+#header h2 {
+	font-size: 80%;
+	padding-right: 95px;
+	font-weight: normal;
+}
+#content {
+	width: 460px;
+	float: left;
+	padding-left: 15px;
+}
+#themes {
+	width: 200px;
+	float: right;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+#themes p {
+	font-size: 90%;
+	color: #365F75;
+}
+#content p {
+	padding-bottom: 20px;
+}
+
+h3 {
+	color: #365F75;
+	font-size: 1.3em;
+	font-weight: normal;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+#links {
+	width: 200px;
+	padding-right: 30px;
+	float: right;
+	padding-bottom: 25px;
+	clear: right;
+}
+h4 {
+	color: #365F75;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 100%;
+}
+#links ul {
+	list-style: none;
+}
+#footer {
+	clear: both;
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 20px 15px;
+	border-top: 5px solid #fc0;
+	height: 80px;
+	line-height: normal;
+}
+#footer a {
+	color: #FFFFFF;
+	font-size: 80%;
+}
+#content ul {
+	padding-left: 35px;
+}
+#links a {
+	color: #365F75;
+	text-decoration: none;
+}
+#links a:hover {
+	color: #fc0;
+}
+#footer a {
+	text-decoration: none;
+}
+#footer a:hover {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+#links li {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#container #news {
+	width: 200px;
+	padding-right: 30px;
+	float: right;
+}
