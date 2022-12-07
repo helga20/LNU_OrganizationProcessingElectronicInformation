@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>AngularJS</title> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+<section>
+    <div> <hr>
+        <h4 class="h4">
+            <mark class="mark">AngularJS</mark><br>
+        </h4>
+
+            <video width="400" controls>
+                <source src="angular history.mp4" type="video/mp4">
+                <source src="angular history.ogg" type="video/ogg">
+                    Your browser does not support HTML5 video.
+            </video>
+                <dl><dt class="ttl">  
+                    <br>AngularJS <sup><a href="https://uk.wikipedia.org/wiki/AngularJS">[Wiki]</a></sup>
+                </dt> 
+
+    <main>
+        <dd> JavaScript-фреймворк з відкритим програмним кодом, який розробляє <i>Google</i>. Призначений для розробки односторінкових додатків, що складаються з одної <i>HTML</i> сторінки 
+                з <i>CSS</i> і <i>JavaScript</i>.Його мета — розширення браузерних застосунків на основі шаблону Модель-вид-контролер (MVC), а також спрощення їх тестування та
+                розробки.
+        </dd></dl>
+            <img class="rightimg1" src="AngularJS_logo.png"><br><br> 
+                <h4><b>Основні переваги використання Angular</b></h4>
+                    <ol>
+                        <li>Декларативний стиль коду</li>
+                        <li>Використання спеціальних директив</li>
+                        <li>Модульність</li>
+                        <li>Простота тестування</li>
+                        <li>Завчасно готові рішення, які спрощують розробку</li>
+                    </ol>		
+                <br><br> <b>Директиви, що використовуються в фреймворку</b><br><br>
+                Директивами в Ангулярі називаються додаткові атрибути, що розширюють стандартний HTML-код та містять у собі приставку ng-. <br><br>Серед найбільш використовуваних і основних:
+                <p><b><i>ng-app</b></i> – “обгортає” додаток Angular, розпочинає його.</p>
+                <p><b><i>ng-init</b></i> – ініціалізує дані програми.</p>
+                <p><b><i>ng-model</b></i> – вносить додаткові дані в програму шляхом зв’язування даних.</p>
+                <b>Приклад роботи AngularJS</b>
+                    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+                        <div ng-app="" ng-init="firstName='Olia'">
+                            <p>Введіть своє ім'я: <input type="text" ng-model="firstName"></p>
+                            <p>Ви ввели:  {{ firstName }}</p>
+                        </div>
+                Директива ng-app передає інформацію AngularJS, що блок є “обгорткою” додатка AngularJS.<br><br>
+                <b>Зв’язування даних</b><br><br>
+                Як Ви помітили, зверху в коді поміщений вираз {{FirstName}}. Він в AngularJS використовується для зв’язування даних. Зв’язування даних використовується для створення “містка” між ng-model та виводом.<br><br>
+                <b>Модулі в AngularJS</b><br><br>
+                Формою організації усіх процесів в Angular є модулі. Модуль – це певне середовище для окремої інформації, такої як директиви, контроллери, фільтри тощо. Описується директивою ng-module.<br><br>
+                <b>Контроллери в AngularJS</b><br><br>
+                Длиректива ng-controller визначає контроллер додатку. Саме організувавши роботу контроллера ми встановлюємо контроль над даними в програмі.<br><br>
+    </main>
+
+    </div>
+</section>
+
+    <button class="button button4">
+        <li><a href="My page.html">Повернутися назад</a></li>
+    </button>
+
+</html>
